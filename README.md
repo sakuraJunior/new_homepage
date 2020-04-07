@@ -1,7 +1,7 @@
 <p align="center">
-  <a href="https://nodejs.org/">
+  <a href="https://sakuragumi.tk">
     <img
-      alt="Node.js"
+      alt="さくら組"
       src="https://sakuragumi.tk/img/sakuragumi.svg"
       width="200"
     />
