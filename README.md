@@ -10,6 +10,8 @@
 
 さくら組ホームページのリポジトリです。静的サイトジェネレーターである**Jekyll**を利用しています。
 
+![Jekyll site CI](https://github.com/sakuraJunior/new_homepage/workflows/Jekyll%20site%20CI/badge.svg)
+
 ### 環境構築の手順
 
 **実機を使う場合**
