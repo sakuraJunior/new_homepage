@@ -19,7 +19,7 @@
 ```
 **GitPodを使う場合**
 
-[ここ](https://gitpod.io/#https://github.com/sakuraJunior/new_homepage)のページに飛んでください。
+[ここ](https://gitpod.io/#https://github.com/sakuraJunior/new_homepage)のページで上のコマンドを実行してください。
 
 ### 構成
 共通のHTML | 共通のCSS | 共通のJS
