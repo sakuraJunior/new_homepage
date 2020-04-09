@@ -2,8 +2,8 @@
   <a href="https://sakuragumi.tk">
     <img
       alt="さくら組"
-      src="https://sakuragumi.tk/img/sakuragumi.svg"
-      width="200"
+      src="assets/img/sakuragumiTitle.svg"
+      width="400"
     />
   </a>
 </p>
