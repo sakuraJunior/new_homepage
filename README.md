@@ -11,6 +11,8 @@
 さくら組ホームページのリポジトリです。静的サイトジェネレーターである**Jekyll**を利用しています。
 
 ![Jekyll site CI](https://github.com/sakuraJunior/new_homepage/workflows/Jekyll%20site%20CI/badge.svg)
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/sakuraJunior/new_homepage.svg)](http://isitmaintained.com/project/sakuraJunior/new_homepage "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/sakuraJunior/new_homepage.svg)](http://isitmaintained.com/project/sakuraJunior/new_homepage "Percentage of issues still open")
 
 ### 環境構築の手順
 
