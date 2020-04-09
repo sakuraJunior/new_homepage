@@ -28,7 +28,7 @@ layouts/default.html | assets/css/default.css | assets/js/default.js
 
 ページごとのHTML | ページごとのCSS | ページごとのJS
 --- | --- | ---
-/ | assets/css/{{ page.title }}.css | assets/js/{{ page.title }}.js
+/ | assets/css/{{ page.title &#124; downcase }}.css | assets/js/{{ page.title &#124; downcase }}.js
 
 画像 | ...
 --- | ---
