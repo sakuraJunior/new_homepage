@@ -7,14 +7,14 @@
     <title>{{ page.title }}</title>
     <!-- CSS読み込み -->
     <link rel="stylesheet" href="assets/css/default.css">
-    <link rel="stylesheet" href="assets/css/{{ page.title }}.css">
+    <link rel="stylesheet" href="assets/css/{{ page.title | downcase }}.css">
     <!--  -->
 </head>
 <body>
     {{ content }}
     <!-- JS読み込み -->
     <script src="assets/js/default.js"></script>
-    <script src="assets/js/{{ page.title }}.js"></script>
+    <script src="assets/js/{{ page.title | downcase }}.js"></script>
     <!--  -->
 </body>
 </html>
