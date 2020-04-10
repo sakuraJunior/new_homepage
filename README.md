@@ -25,15 +25,31 @@
 
 [ここ](https://gitpod.io/#https://github.com/sakuraJunior/new_homepage)のページで上のコマンドを実行してください。
 
-### 構成
-共通のHTML | 共通のCSS | 共通のJS
+### ディレクトリ構造
+    .
+    ├── index.html
+    ├── about.html
+    ├── ...
+    ├── CNAME                 # ドメインの設定ファイル
+    └── .github
+    │      └── workflows
+    │         ├── jekyll.yml  # GitHub Active 設定ファイル
+    └── layouts
+    │   ├── default.html      # デフォルトのレイアウト
+    └── assets
+    │   └── css
+    │      ├── default.css    # デフォルトのスタイル
+    │      ├── {{ page.title | downcase }}.css  # ページ別のスタイル
+    │   └── js
+    │      ├── default.js     # デフォルトのJavaScript
+    │      ├── {{ page.title | downcase }}.js  # ページ別のJavaScript
+    │   └── img
+    |      ├── sakuragumiIcon.svg
+    |      ├── sakuragumiTitle.svg   
+    |      ├──...
+### ブランチ
+目的 | ブランチ | 確認用URL
 --- | --- | ---
-layouts/default.html | assets/css/default.css | assets/js/default.js
+開発 | development | なし
+本番 | master | https://new.sakuragumi.tk
 
-ページごとのHTML | ページごとのCSS | ページごとのJS
---- | --- | ---
-/ | assets/css/{{ page.title &#124; downcase }}.css | assets/js/{{ page.title &#124; downcase }}.js
-
-画像 | ...
---- | ---
-assets/img/ | ...
