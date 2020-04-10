@@ -1,0 +1,81 @@
+.navTitle {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.navbar {
+    border-bottom: 2px solid #000;
+    background-color: white !important;
+}
+
+.navbar-brand br {
+    display: none;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    font-weight: 700;
+}
+
+#social {
+    margin-bottom: 10px;
+}
+
+#social i {
+    font-size: 2rem;
+}
+
+#social i:hover {
+    opacity: 0.8;
+}
+
+#social a:nth-of-type(n+2) {
+    margin-left: 10px;
+}
+
+.fa-twitter {
+    color: #00acee;
+}
+
+.fa-youtube {
+    color: #c4302b;
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-envelope {
+    color: #0000ee;
+}
+
+@media (min-width: 992px) {
+    .layout {
+        display: flex;
+    }
+
+    .layout>nav {
+        padding: 1.5rem;
+        width: 264px;
+        height: 100vh;
+        overflow-y: scroll;
+        flex-direction: column;
+        align-items: flex-start;
+        border: none;
+    }
+
+    .navbar-brand br {
+        display: block;
+    }
+
+    hr {
+        border-top: 1px solid #000;
+    }
+
+    main {
+        max-width: calc(100vw - 264px);
+    }
+}
