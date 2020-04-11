@@ -47,9 +47,3 @@
     |      ├── sakuragumiIcon.svg
     |      ├── sakuragumiTitle.svg   
     |      ├──...
-### ブランチ
-目的 | ブランチ | 確認用URL
---- | --- | ---
-開発 | development | なし
-本番 | master | https://new.sakuragumi.tk
-
