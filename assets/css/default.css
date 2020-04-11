@@ -79,3 +79,20 @@
         width: calc(100vw - 264px);
     }
 }
+
+@media (min-width: 992px) {
+    .container {
+        max-width: calc(720px - 264px);
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: calc(1140px - 264px);
+    }
+}
+
+h1.title {
+    margin-block-start: 0.67em;
+    font-weight: bold;
+
+}
