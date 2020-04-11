@@ -76,6 +76,6 @@
     }
 
     main {
-        max-width: calc(100vw - 264px);
+        width: calc(100vw - 264px);
     }
 }
