@@ -34,6 +34,9 @@
     └── .github
     │      └── workflows
     │         ├── jekyll.yml  # GitHub Active 設定ファイル
+    └── _data
+    │   ├── navigation.yml    # ナビゲーション用ファイル
+    │   ├── externalLink.yml  # ナビゲーション用ファイル
     └── layouts
     │   ├── default.html      # デフォルトのレイアウト
     └── assets
