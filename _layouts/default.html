@@ -31,41 +31,20 @@
             <div class="collapse navbar-collapse flex-column" id="navbarSupportedContent">
                 <hr>
                 <ul class="navbar-nav d-lg-block">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about">概要</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/member">メンバー</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/project">プロジェクト</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/robot">ロボット</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/program">プログラム</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/corevalue">コアバリュー</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/blog">ブログ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/contact">お問い合わせ</a>
-                    </li>
+                    {% for item in site.data.navigation %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
+                        </li>
+                    {% endfor %}
                 </ul>
                 <hr>
                 <ul class="navbar-nav d-lg-block">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://japan-open-2020.sakuragumi.tk" target="_blank">PointTable2020
-                            <i class="fas fa-external-link-alt"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://firstjapan.jp/" target="_blank">FIRSTJAPAN <i
-                                class="fas fa-external-link-alt"></i></a>
-                    </li>
+                    {% for item in site.data.externalLink %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ item.link }}" target="_blank">{{ item.name }}
+                                <i class="fas fa-external-link-alt"></i></a>
+                        </li>
+                    {% endfor %}
                 </ul>
                 <hr>
                 <footer>

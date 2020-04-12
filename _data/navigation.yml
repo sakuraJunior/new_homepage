@@ -1,0 +1,12 @@
+- name: ホーム
+  link: /
+- name: メンバー
+  link: /member
+- name: プロジェクト
+  link: /project
+- name: ロボット
+  link: /robot
+- name: コアバリュー
+  link: /corevalue
+- name: お問い合わせ
+  link: /contact
