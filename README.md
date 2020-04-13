@@ -23,7 +23,7 @@
 ```
 **GitPodを使う場合**
 
-[ここ](https://gitpod.io/#https://github.com/sakuraJunior/new_homepage)のページで上のコマンドを実行してください。
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/sakuraJunior/new_homepage)
 
 ### ディレクトリ構造
     .
