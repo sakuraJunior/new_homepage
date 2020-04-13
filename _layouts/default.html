@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="assets/themes/css/bootstrap.min.css">
     <!-- CSS読み込み -->
     <link rel="stylesheet" href="assets/css/default.css">
-    <link rel="stylesheet" href="assets/css/{{ page.title | downcase }}.css">
+    {% if page.style %}
+    <link rel="stylesheet" href="assets/css/{{ page.style }}.css">
+    {% endif %}
     <!--  -->
 </head>
 <body>
@@ -72,7 +74,9 @@
     <script src="https://kit.fontawesome.com/3d3df0e672.js" crossorigin="anonymous"></script>
     <!-- JS読み込み -->
     <script src="assets/js/default.js"></script>
-    <script src="assets/js/{{ page.title | downcase }}.js"></script>
+    {% if page.script %}
+    <script src="assets/js/{{ page.script }}.js"></script>
+    {% endif %}
     <!--  -->
 </body>
 </html>

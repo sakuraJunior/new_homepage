@@ -42,10 +42,10 @@
     └── assets
     │   └── css
     │      ├── default.css    # デフォルトのスタイル
-    │      ├── {{ page.title | downcase }}.css  # ページ別のスタイル
+    │      ├── {{ page.style }}.css  # ページ別のスタイル
     │   └── js
     │      ├── default.js     # デフォルトのJavaScript
-    │      ├── {{ page.title | downcase }}.js  # ページ別のJavaScript
+    │      ├── {{ page.script }}.js  # ページ別のJavaScript
     │   └── img
     |      ├── sakuragumiIcon.svg
     |      ├── sakuragumiTitle.svg   
