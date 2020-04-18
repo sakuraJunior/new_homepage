@@ -5,7 +5,7 @@
 
 .navbar {
     border-bottom: 2px solid #000;
-    background-color: white !important;
+    background-color: white;
 }
 
 .navbar-brand br {
@@ -13,10 +13,6 @@
 }
 
 .nav-link {
-    font-weight: 500;
-}
-
-.nav-link:hover {
     font-weight: 700;
 }
 
@@ -48,16 +44,12 @@
     color: black;
 }
 
-.fa-envelope {
-    color: #0000ee;
-}
-
 @media (min-width: 992px) {
     .layout {
         display: flex;
     }
 
-    .layout>nav {
+    .navbar {
         padding: 1.5rem;
         width: 264px;
         height: 100vh;
@@ -78,9 +70,6 @@
     main {
         width: calc(100vw - 264px);
     }
-}
-
-@media (min-width: 992px) {
     .container {
         max-width: calc(720px - 264px);
     }
@@ -91,8 +80,7 @@
     }
 }
 
-h1.title {
+h1, h2, h3, h4, h5 {
     margin-block-start: 0.67em;
     font-weight: bold;
-
 }

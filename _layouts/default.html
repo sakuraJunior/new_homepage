@@ -5,18 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>さくら組 | {{ page.title }}</title>
-    <!-- bootstrap読み込み -->
     <link rel="stylesheet" href="assets/themes/css/bootstrap.min.css">
-    <!-- CSS読み込み -->
     <link rel="stylesheet" href="assets/css/default.css">
     {% if page.style %}
     <link rel="stylesheet" href="assets/css/{{ page.style }}.css">
     {% endif %}
-    <!--  -->
 </head>
 <body>
     <div class="layout">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
             <a class="navbar-brand" href="/">
                 <img
                     src="https://github.com/sakuraJunior/new_homepage/raw/master/assets/img/sakuragumiTitle.svg?sanitize=true">
@@ -55,7 +52,6 @@
                                 class="fab fa-youtube"></i></a>
                         <a href="https://twitter.com/fll_sakuragumi" target="_blank"><i class="fab fa-twitter"></i></a>
                         <a href="https://github.com/sakurajunior" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="mailto:fll_sakuragumi@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
                     </div>
                     <small>Copyright © 2020 さくら組</small>
                 </footer>
@@ -67,16 +63,12 @@
             </div>
         </main>
     </div>
-    <!-- bootstrap読み込み -->
     <script src="assets/themes/js/jquery-3.4.1.min.js"></script>
     <script src="assets/themes/js/bootstrap.bundle.min.js"></script>
-    <!-- fontawesome読み込み -->
     <script src="https://kit.fontawesome.com/3d3df0e672.js" crossorigin="anonymous"></script>
-    <!-- JS読み込み -->
     <script src="assets/js/default.js"></script>
     {% if page.script %}
     <script src="assets/js/{{ page.script }}.js"></script>
     {% endif %}
-    <!--  -->
 </body>
 </html>
