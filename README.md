@@ -47,6 +47,6 @@
     │      ├── default.js     # デフォルトのJavaScript
     │      ├── {{ page.script }}.js  # ページ別のJavaScript
     │   └── img
-    |      ├── sakuragumiIcon.svg
-    |      ├── sakuragumiTitle.svg   
-    |      ├──...
+    │      ├── sakuragumiIcon.svg
+    │      ├── sakuragumiTitle.svg   
+    │      ├──...
