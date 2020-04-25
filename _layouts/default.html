@@ -29,22 +29,15 @@
             </button>
             <div class="collapse navbar-collapse flex-column" id="navbarSupportedContent">
                 <hr>
-                <ul class="navbar-nav d-lg-block">
-                    {% for item in site.data.navigation %}
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
-                        </li>
-                    {% endfor %}
-                </ul>
-                <hr>
-                <ul class="navbar-nav d-lg-block">
-                    {% for item in site.data.externalLink %}
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ item.link }}" target="_blank">{{ item.name }}
-                                <i class="fas fa-external-link-alt"></i></a>
-                        </li>
-                    {% endfor %}
-                </ul>
+                {% for section in site.data.navigation %}
+                    <ul class="navbar-nav d-lg-block">
+                        {% for item in section.docs %}
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endfor %}
                 <hr>
                 <footer>
                     <div id="social">

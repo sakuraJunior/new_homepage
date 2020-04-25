@@ -1,8 +1,18 @@
-- name: ホーム
-  link: /
-- name: メンバー
-  link: /member
-- name: cm2deg
-  link: /cm2deg
-- name: お問い合わせ
-  link: /contact
+- title: リンク
+  docs: 
+    - name: ホーム
+      link: /
+    - name: メンバー
+      link: /member
+    - name: cm2deg
+      link: /cm2deg
+    - name: お問い合わせ
+      link: /contact
+- title: 外部リンク
+  docs:
+    - name: This page repository
+      link: https://github.com/sakuraJunior/new_homepage
+    - name: PointTable2020
+      link: https://japan-open-2020.sakuragumi.tk/
+    - name: FIRST JAPAN
+      link: https://firstjapan.jp/
