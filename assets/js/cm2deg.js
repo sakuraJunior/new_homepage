@@ -1,6 +1,11 @@
-#board {
-    transform: translateX(1em);
-}
-#deg {
-    font-size: 1.2em;
+const cmElm = document.getElementById("cm");
+const sizeElm = document.getElementById("size");
+const degElm = document.getElementById("deg");
+for(const elm of [cmElm, sizeElm]) {
+    elm.addEventListener("input", () => {
+        const cm = cmElm.value;
+        const size = sizeElm.value;
+        const deg = cm / Math.PI / size * 360;
+        degElm.innerHTML = Number.isFinite(deg) ? deg : "---";
+    });
 }
