@@ -8,7 +8,17 @@ script: cm2deg
 <h1>cm2deg</h1>
 <p>センチメートルを、タイヤの角度に変換するツールです。</p>
 <div id="board">
-    <p>距離(cm) : <input type="number" placeholder="距離" id="cm" value="0"></p>
-    <p>タイヤ直径(cm) : <input type="number" placeholder="タイヤ直径" id="size" value="5.2"></p>
+    <div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon3">距離(cm)</span>
+    </div>
+    <input type="text" class="form-control" id="cm" aria-describedby="basic-addon3" value="0">
+    </div>
+    <div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon3">タイヤ直径(cm)</span>
+    </div>
+    <input type="text" class="form-control" id="size" aria-describedby="basic-addon3" value="5.2">
+    </div>
 </div>
 <p><output id="deg">0</output> deg</p>
