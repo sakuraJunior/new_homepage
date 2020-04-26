@@ -32,9 +32,21 @@
                 {% for section in site.data.navigation %}
                     <ul class="navbar-nav d-lg-block">
                         {% for item in section.docs %}
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
-                            </li>
+                            {% if item.title == nil %}
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
+                                </li>
+                            {% else %}
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    {{ item.title }}</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        {% for item in item.docs %}
+                                            <a class="dropdown-item" href="{{ item.link }}">{{ item.name }}</a>
+                                        {% endfor %}
+                                    </div>
+                                </li>
+                            {% endif %}
                         {% endfor %}
                     </ul>
                 {% endfor %}
