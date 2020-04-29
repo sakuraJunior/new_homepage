@@ -7,6 +7,9 @@
     border-bottom: 2px solid #000;
     background-color: white;
 }
+.navbar img {
+    width: 50%;
+}
 footer small {
     font-weight: bold;
     color: rgba(0,0,0,.5);
@@ -76,10 +79,16 @@ footer small {
     .container {
         max-width: calc(900px - 264px);
     }
+    .navbar img {
+        width: 100%;
+    }
 }
 @media (min-width: 1200px) {
     .container {
         max-width: calc(1140px - 264px);
+    }
+    .navbar img {
+        width: 100%;
     }
 }
 
