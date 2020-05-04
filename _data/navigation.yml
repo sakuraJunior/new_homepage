@@ -4,17 +4,13 @@
       link: /
     - name: メンバー
       link: /member
-    - title: ツール
-      docs:
-        - name: cm2deg
-          link: /cm2deg
-        - name: PointTable
-          link: https://japan-open-2020.sakuragumi.tk/
+    - name: cm2deg
+      link: /cm2deg
     - name: お問い合わせ
       link: /contact
 - title: 外部リンク
   docs:
-    - name: This page repository
-      link: https://github.com/sakuraJunior/new_homepage
     - name: FIRST JAPAN
       link: https://firstjapan.jp/
+    - name: FIRST LEGO League
+      link: http://www.firstlegoleague.org/
