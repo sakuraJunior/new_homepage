@@ -5,6 +5,7 @@
 
 .navbar {
     border-bottom: 2px solid #000;
+    flex-wrap: nowrap;
     background-color: white;
 }
 .navbar img {
