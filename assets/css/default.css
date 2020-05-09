@@ -8,6 +8,9 @@
     flex-wrap: nowrap;
     background-color: white;
 }
+.navbar-collapse {
+    align-items: unset!important;
+}
 .navbar img {
     width: 50%;
 }
