@@ -6,12 +6,12 @@ for(const elm of [cmElm, sizeElm]) {
         const cm = cmElm.value;
         const size = sizeElm.value;
         const deg = cm / Math.PI / size * 360;
-        degElm.value = Number.isFinite(deg) ? Math.round(deg*1000)/1000 : "---";
+        degElm.value = Number.isNaN(deg) ? "---" : Math.round(deg*1000)/1000;
     });
 }
-deg.addEventListener("input", () => {
+degElm.addEventListener("input", () => {
     const deg = degElm.value
     const size = sizeElm.value;
     const cm = deg * Math.PI * size / 360;
-    cmElm.value = Number.isFinite(cm) ? Math.round(cm*1000)/1000 : "---";
+    cmElm.value = Number.isNan(cm) ? "---" : Math.round(cm*1000)/1000;
 });
