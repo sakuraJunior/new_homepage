@@ -13,5 +13,5 @@ degElm.addEventListener("input", () => {
     const deg = degElm.value
     const size = sizeElm.value;
     const cm = deg * Math.PI * size / 360;
-    cmElm.value = Number.isNan(cm) ? "---" : Math.round(cm*1000)/1000;
+    cmElm.value = Number.isNaN(cm) ? "---" : Math.round(cm*1000)/1000;
 });
