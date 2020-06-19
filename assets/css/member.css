@@ -1,0 +1,45 @@
+main {
+  --thema-color: 325;
+  --thema-satuation: 100%;
+  text-align: center;
+  background: hsl(var(--thema-color), var(--thema-satuation), 99%);
+}
+
+h1 {
+  padding: 0.4em;
+  margin:0;
+  font-size: 2.6em;
+  color: hsl(var(--thema-color), var(--thema-satuation), 40%);
+}
+
+/* toc */
+.toc {
+  position: relative;
+  padding: 1em;
+}
+
+.toc::before {
+  content: "";
+  position: absolute;
+  left: 10%;
+  width: 80%;
+  height: 1em;
+  border-radius: 1em;
+  background: hsl(var(--thema-color), var(--thema-satuation), 50%);
+  z-index:1;
+}
+
+
+.toc h2 {
+  font-size: 2em;
+  font-weight: normal;
+  color: hsl(var(--thema-color), var(--thema-satuation), 50%);
+}
+
+.toc strong {
+  color: hsl(var(--thema-color), var(--thema-satuation), 50%)
+}
+
+.toc .text_anchor {
+    color: inherit;
+}
